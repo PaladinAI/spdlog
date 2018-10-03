@@ -64,5 +64,6 @@ install_manifest.txt
 /tests/tests
 /tests/logs/*
 
-# idea
+# IDEs
 .idea/
+.vscode/
