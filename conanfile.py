@@ -3,12 +3,11 @@ from conans import tools
 
 class SpdlogConan(ConanFile):
     name = "spdlog"
-    version = "0.14.0"
-    description = "https://gitlab.axis-canada.com/3rdparty/spdlog."
+    version = "1.1.0"
+    description = "Fast C++ logging library."
     url = "https://github.com/gabime/spdlog"
     license = "MIT"
     exports_sources = "include/*"
-    no_copy_source = True
 
     def package(self):
         self.copy("*.h", src="include", dst="include")
